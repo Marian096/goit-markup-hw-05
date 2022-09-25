@@ -716,7 +716,8 @@ body {
     align-items: center;
 }
 
-.close-button:hover svg {
+.close-button:hover,
+.close-button:focus svg {
     fill: var(--accent-color);
 }
 
